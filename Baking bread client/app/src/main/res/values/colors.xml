@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_url">#2246e7</color>
+    <color name="btnSignUp">#ffc922</color>
+    <color name="btnSignUpActive">#A9d440</color>
+    <color name="alertColor">#494949</color>
+
+    <!--<color name="overlayBackground">#96979A</color>-->
+    <!--<color name="overlayActionBar">#0e0d0e</color>-->
+
+    <color name="bottomText">#6b6b76</color>
+
+    <color name="rippleeffectColor">#f816a463</color>
+
+    <color name="btnSignIn">#ffc922</color>
+    <color name="btnRegister">#83838c</color>
+
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+
+
+    <color name = "transparent">#00000000</color>
+
+
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+
+    <color name="divider">#BDBDBD</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!-- TODO: Update blank fragment layout -->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/listCart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/ti" />
+
+<TextView
+    android:id="@+id/ti"
+    android:text="Total: "
+    android:gravity="end"
+
+    android:textSize="20sp"
+    android:layout_above="@+id/total"
+    android:textColor="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<TextView
+    android:textSize="28sp"
+    android:id="@+id/total"
+    android:layout_above="@+id/btnPlaceOrder"
+    android:gravity="end"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="300.00"
+    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button android:layout_above="@+id/cart_back"
+    android:textColor="@color/icons"
+    android:backgroundTint="@color/colorPrimary"
+    android:id="@+id/btnPlaceOrder"
+    android:text="Checkout"
+    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button
+    android:layout_alignParentBottom="true"
+    android:id="@+id/cart_back"
+    android:text="Back"
+    android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</RelativeLayout>
