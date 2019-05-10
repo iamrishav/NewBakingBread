@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri May 10 06:12:35 IST 2019
+0.baseType=DIRECTORY
+0.base=/home/iamrishav/Baking bread server/app/build/intermediates/assets/debug
+0.path=fonts/NABILA.TTF
+0.set=ASSET
+count=1

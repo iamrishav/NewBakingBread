@@ -64,7 +64,7 @@ public class RestaurantList extends Fragment {
     AVLoadingIndicatorView avi;
     TextView tvDisplayResult;
     GooglePlacesApi googlePlacesApi;
-    RestaurantListClient hospitalListClient;
+    RestaurantListClient restaurantListClient;
     private Button loginPage, locateMap;
     DetailSinglePlace place;
     ImageView image;
@@ -75,85 +75,12 @@ public class RestaurantList extends Fragment {
     static LatLng curLocation = defLocation;
     LocationManager locMan;
     LocationListener locLis;
-    int locationType = GooglePlacesApi.TYPE_RESTAURANT;
-    int locationRankby = GooglePlacesApi.RANKBY_PROMINENCE;
 
 
 
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_restaurant_list);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        toolbar.setTitle("Details");
-//        setSupportActionBar(toolbar);
-//
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//
-//        recyclerHospital = (RecyclerView) findViewById(R.id.recyclerHospital);
-//        recyclerHospital.setLayoutManager(new LinearLayoutManager(this));
-//
-//        fader = (FrameLayout) findViewById(R.id.fader);
-//        listFrame = (FrameLayout) findViewById(R.id.content_main);
-//        avi = (AVLoadingIndicatorView) findViewById(R.id.avi);
-//        tvDisplayResult = findViewById(R.id.tvDisplayResult);
-//
-//
-//        stopLoadingAnimation();
-//        tvDisplayResult.setVisibility(View.INVISIBLE);
-//
-//
-//
-//
-//
-//        Intent intent = getIntent();
-////        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-////            Log.d(TAG, "onCreate: search started");
-//
-//            setLoadingAnimation();
-//            String query = intent.getStringExtra(SearchManager.QUERY);
-//
-//            toolbar.setTitle("Search results for '" + query + "'");
-//
-//            googlePlacesApi = new GooglePlacesApi();
-//            hospitalListClient = googlePlacesApi.getrestaurantlistclient();
-//
-//            HashMap<String, String> params = googlePlacesApi.getQueryParams(RestaurantLocation.curLocation, GooglePlacesApi.TYPE_RESTAURANT, GooglePlacesApi.RANKBY_PROMINENCE);
-//            params.put("radius", "5000");
-////            params.put("name", query);
-//
-//            hospitalListClient.getNearbyRestaurant(params).enqueue(new Callback<PlaceList>() {
-//                @Override
-//                public void onResponse(Call<PlaceList> call, Response<PlaceList> response) {
-////                    Log.d(TAG, "onResponse: resp received");
-//                    PlaceList placeList = response.body();
-//
-//                    if (placeList != null) {
-//                        stopLoadingAnimation();
-//                        itemList = placeList.places;
-//                        if (itemList.size() == 0)
-//                            tvDisplayResult.setVisibility(View.VISIBLE);
-//                        else
-//                            bindRecyclerView();
-//
-//                    }
-//
-//                }
-//
-//                @Override
-//                public void onFailure(Call<PlaceList> call, Throwable t) {
-////                    Log.d(TAG, "onFailure: cannot access places api");
-//                    Toast.makeText(getContext(), "Unable to access server. Please try again later", Toast.LENGTH_SHORT).show();
-//                    tvDisplayResult.setVisibility(View.VISIBLE);
-//                }
-//            });
-////        } else {
-////            itemList = Parcels.unwrap(intent.getParcelableExtra("itemList"));
-////            bindRecyclerView();
-////        }
 
-//    }
+//
 
     @Nullable
     @Override
@@ -179,102 +106,14 @@ public class RestaurantList extends Fragment {
 //            Log.d(TAG, "onCreate: search started");
 
         setLoadingAnimation();
-
         googlePlacesApi = new GooglePlacesApi(view.getContext());
-        hospitalListClient = googlePlacesApi.getrestaurantlistclient();
-        MyClass myClass = new MyClass();
+        restaurantListClient = googlePlacesApi.getrestaurantlistclient();
 
-//        curLocation = new LatLng(myClass.currentLatitude,myClass.currentLongitude);
+        HashMap<String, String> params = googlePlacesApi.getQueryParams(curLocation, GooglePlacesApi.TYPE_RESTAURANT, GooglePlacesApi.RANKBY_DISTANCE);
 
-        getHospitalLocation(curLocation);
-
-
-
-
-
-//
-//        String query = intent.getStringExtra(SearchManager.QUERY);
-
-//        toolbar.setTitle("Search results for '" + query + "'");
-
-
-
-
-
-
-
-        return view;
-    }
-
-
-    public class MyClass implements LocationListener {
-        double currentLatitude, currentLongitude;
-
-        public void onLocationChanged(Location location) {
-            currentLatitude = location.getLatitude();
-            currentLongitude = location.getLongitude();
-
-
-        }
-
-        @Override
-        public void onStatusChanged(String provider, int status, Bundle extras) {
-
-        }
-
-        @Override
-        public void onProviderEnabled(String provider) {
-
-        }
-
-        @Override
-        public void onProviderDisabled(String provider) {
-
-        }
-    }
-
-
-
-
-    void getDetails(String placeId) {
-        HashMap<String, String> params = new HashMap<>();
-        params.put("key", GooglePlacesApi.WEB_KEY);
-        params.put("placeid", placeId);
-
-        hospitalListClient.getRestaurantDetails(params).enqueue(new Callback<DetailResult>() {
-            @Override
-            public void onResponse(Call<DetailResult> call, Response<DetailResult> response) {
-                place = response.body().getResult();
-
-                if (place == null)
-                    Toast.makeText(getContext(), "Unable to find hospital.", Toast.LENGTH_SHORT).show();
-                else {
-                    if (place.getPhotos() != null)
-                        setPhoto(place.getPhotos().get(0).getPhotoReference());
-
-
-                }
-            }
-
-            @Override
-            public void onFailure(Call<DetailResult> call, Throwable t) {
-//                Log.d(TAG, "onFailure: Unable to fetch details");
-                Toast.makeText(getContext(), "Unable to fetch details.", Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-
-
-//
-
-
-    void getHospitalLocation(LatLng loc) {
-
-        HashMap<String, String> params = googlePlacesApi.getQueryParams(loc, GooglePlacesApi.TYPE_RESTAURANT, GooglePlacesApi.RANKBY_PROMINENCE);
-        params.put("radius", "5000");
 //            params.put("name", query);
 
-        hospitalListClient.getNearbyRestaurant(params).enqueue(new Callback<PlaceList>() {
+        restaurantListClient.getNearbyRestaurant(params).enqueue(new Callback<PlaceList>() {
             @Override
             public void onResponse(Call<PlaceList> call, Response<PlaceList> response) {
 //                    Log.d(TAG, "onResponse: resp received");
@@ -306,13 +145,21 @@ public class RestaurantList extends Fragment {
 
 
 
+
+
+
+//
+//
+
+
+
+
+
+
+
+        return view;
     }
 
-//    @Override
-//    public boolean onSupportNavigateUp() {
-//        finish();
-//        return true;
-//    }
 
     void bindRecyclerView() {
         RestaurantListRecycler hospitalListRecycler = new RestaurantListRecycler(itemList, getContext());
@@ -336,19 +183,6 @@ public class RestaurantList extends Fragment {
         avi.hide();
     }
 
-    void setPhoto(String photoReference) {
-        if (photoReference == null)
-            return;
-
-        String url = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=1200&photoreference=" + photoReference +
-                "&key=" + GooglePlacesApi.WEB_KEY;
-
-        Picasso.get()
-                .load(url)
-                .fit()
-                .placeholder(R.drawable.dinner)
-                .into(image);
-    }
 
     void getDistance() {
         if (placeList.places.isEmpty())
@@ -371,7 +205,7 @@ public class RestaurantList extends Fragment {
         params.put("origins", curLocation.latitude + "," + curLocation.longitude);
         params.put("destinations", destination);
 
-        hospitalListClient.getRestaurantDistances(params).enqueue(new Callback<DistanceResult>() {
+        restaurantListClient.getRestaurantDistances(params).enqueue(new Callback<DistanceResult>() {
             @Override
             public void onResponse(Call<DistanceResult> call, Response<DistanceResult> response) {
                 distanceResult = response.body();
@@ -406,10 +240,7 @@ public class RestaurantList extends Fragment {
         });
     }
 
-    public  void locations(){
 
-
-    }
 
 }
 

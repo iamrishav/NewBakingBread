@@ -2205,6 +2205,9 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id help_email_content
+id help_email_send
+id help_email_subject
 id helper
 id helperWithError
 id highlight
@@ -2286,7 +2289,6 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multi
 id multiply
-id nav_addr
 id nav_cart
 id nav_help
 id nav_history
@@ -2296,9 +2298,6 @@ id nav_menu
 id nav_mobile
 id nav_name
 id nav_order
-id nav_profile
-id nav_rate
-id nav_track
 id nav_view
 id navigation_header_container
 id navigation_layout
@@ -2590,6 +2589,7 @@ layout dialog_set_city
 layout food_item
 layout fragment_ahoy
 layout fragment_all_tab
+layout fragment_help
 layout item_last_request
 layout layout
 layout layout_list_item

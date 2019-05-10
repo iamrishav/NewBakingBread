@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
 MERGED from [com.github.andremion:counterfab:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/counterfab-1.0.1.aar/e721b40f6f9630f81317d471cc50c29f/AndroidManifest.xml:2:1-14:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/bd2529e70ff3762e3c965ed7259ea6a6/AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:2:1-17:12
@@ -86,20 +86,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/iamrishav/.gradle
 MERGED from [android.arch.core:runtime:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec84ebc644cfb4db0f73669024f69269/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/ec0e6519b989c5e84284ac090269e3e5/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.volley:volley:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d7c65a38473acb4d0fc21dea929f291e/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
-INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
+INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
 	package
 		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-109:12
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:1-110:12
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:2:11-69
@@ -148,7 +148,7 @@ MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.
 	android:name
 		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:13:22-73
 application
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:15:5-107:19
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:15:5-108:19
 MERGED from [com.github.andremion:counterfab:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/counterfab-1.0.1.aar/e721b40f6f9630f81317d471cc50c29f/AndroidManifest.xml:12:5-20
 MERGED from [com.github.andremion:counterfab:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/counterfab-1.0.1.aar/e721b40f6f9630f81317d471cc50c29f/AndroidManifest.xml:12:5-20
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/bd2529e70ff3762e3c965ed7259ea6a6/AndroidManifest.xml:11:5-20
@@ -285,114 +285,118 @@ activity#com.proyek.rahmanjai.eatit.Restaurants
 ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:43:9-49
 	android:name
 		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:43:19-46
+activity#com.proyek.rahmanjai.eatit.HelpFragment
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:44:9-59
+	android:name
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:44:19-47
 activity#com.proyek.rahmanjai.eatit.SignInActivity
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:44:9-48:20
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:45:9-49:20
 	android:label
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:46:13-45
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:47:13-45
 	android:theme
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:47:13-44
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:45:13-42
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:46:13-42
 activity#com.proyek.rahmanjai.eatit.RestaurantDetails
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:49:9-55
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:50:9-55
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:49:19-52
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:50:19-52
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:58:9-60:55
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:59:9-61:55
 	android:value
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:60:13-52
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:61:13-52
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:59:13-58
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:60:13-58
 activity#com.proyek.rahmanjai.eatit.RestaurantLocation
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:62:9-66:20
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:63:9-67:20
 	android:label
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:64:13-70
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:65:13-70
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:63:13-47
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:64:13-47
 activity#com.proyek.rahmanjai.eatit.RestaurantList
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:67:9-61
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:68:9-61
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:67:19-49
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:68:19-49
 activity#com.proyek.rahmanjai.eatit.AddressLocator
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:68:9-70:48
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:69:9-71:48
 	android:theme
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:70:13-45
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:71:13-45
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:69:13-43
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:70:13-43
 activity#com.proyek.rahmanjai.eatit.ImageBackgroundExampleActivity
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:71:9-73:20
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:72:9-74:20
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:71:19-65
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:72:19-65
 activity#com.proyek.rahmanjai.eatit.SplashActivity
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:76:9-85:20
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:77:9-86:20
 	android:configChanges
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:78:13-74
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:79:13-74
 	android:theme
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:79:13-51
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:80:13-51
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:77:13-43
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:78:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:80:13-84:29
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:81:13-85:29
 action#android.intent.action.MAIN
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:81:17-68
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:82:17-68
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:81:25-66
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:83:17-76
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:84:17-76
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:83:27-74
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:84:27-74
 activity#com.proyek.rahmanjai.eatit.Home
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:86:9-89:47
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:87:9-90:47
 	android:label
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:88:13-56
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:89:13-56
 	android:theme
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:89:13-44
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:90:13-44
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:87:13-33
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:88:13-33
 activity#com.proyek.rahmanjai.eatit.FoodList
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:90:9-46
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:91:9-46
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:90:19-43
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:91:19-43
 activity#com.proyek.rahmanjai.eatit.FoodDetail
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:91:9-48
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:92:9-48
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:91:19-45
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:92:19-45
 activity#com.proyek.rahmanjai.eatit.Cart
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:92:9-42
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:93:9-42
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:92:19-39
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:93:19-39
 activity#com.proyek.rahmanjai.eatit.OrderStatus
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:93:9-49
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:94:9-49
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:93:19-46
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:94:19-46
 activity#com.proyek.rahmanjai.eatit.MainActivity
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:94:9-50
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:95:9-50
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:94:19-47
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:95:19-47
 activity#com.proyek.rahmanjai.eatit.RestaurantLocator
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:95:9-55
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:96:9-55
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:95:19-52
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:96:19-52
 service#com.proyek.rahmanjai.eatit.Service.MyFirebaseService
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:97:9-101:19
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:98:9-102:19
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:97:18-59
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:98:18-59
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:98:13-100:29
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:99:13-101:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:99:17-80
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:100:17-80
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:99:25-77
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:100:25-77
 service#com.proyek.rahmanjai.eatit.Service.MyFirebaseMessaging
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:102:9-106:19
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:103:9-107:19
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:102:18-61
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:103:18-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:103:13-105:29
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:104:13-106:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:104:17-78
+ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:105:17-78
 	android:name
-		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:104:25-75
+		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml:105:25-75
 uses-sdk
 INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml

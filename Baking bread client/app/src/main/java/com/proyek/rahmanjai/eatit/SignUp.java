@@ -101,32 +101,10 @@ public class SignUp extends Fragment {
             public void onClick(View v) {
                 if (Common.isConnectedToInternet(getContext())) {
                     final ProgressDialog mDialog = new ProgressDialog(getContext());
-                    mDialog.setMessage("\n" +
-                            "Please wait...");
-                    mDialog.show();
+                    User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
+                    table_user.child(edtPhone.getText().toString()).setValue(user);
 
-                    table_user.addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-
-//                            if (dataSnapshot.child(edtPhone.getText().toString()).exists()) {
-//                                mDialog.dismiss();
-//                                Toast.makeText(getContext(), "Phone Number Registered !!", Toast.LENGTH_SHORT);
-//                            } else {
-                                mDialog.dismiss();
-                                User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
-                                table_user.child(edtPhone.getText().toString()).setValue(user);
-
-                                Toast.makeText(getContext(), "Signup Successful !!", Toast.LENGTH_SHORT);
-                                
-//                            }
-                        }
-
-                        @Override
-                        public void onCancelled(DatabaseError databaseError) {
-
-                        }
-                    });
+                    Toast.makeText(getContext(), "Signup Successful !!", Toast.LENGTH_SHORT);
                 }else {
                     Toast.makeText(getContext(), "Please check your internet connection!", Toast.LENGTH_SHORT).show();
                 }

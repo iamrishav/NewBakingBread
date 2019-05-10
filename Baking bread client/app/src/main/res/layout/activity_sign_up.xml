@@ -28,6 +28,13 @@ android:layout_height="match_parent">
         android:text="Baking Bread"/>
 
 </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 <android.support.design.widget.TextInputLayout
     android:layout_marginLeft="@dimen/activity_horizontal_margin"
     android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -107,7 +114,8 @@ android:layout_height="match_parent">
         android:layout_height="wrap_content"
         android:hint="Retype Password" android:inputType="textPassword"/>
 </android.support.design.widget.TextInputLayout>
-<Button
+
+    <Button
     android:layout_gravity="center"
     android:text="Sign up"
     android:fontFamily="sans-serif-black"
@@ -140,5 +148,6 @@ android:layout_height="match_parent">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 </LinearLayout>
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

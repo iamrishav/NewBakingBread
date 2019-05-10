@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardElevation="8dp"
+    app:cardElevation="10dp"
     >
 
 
@@ -15,7 +15,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:background="#EA7773"
             android:padding="16dp">
 
           <com.rengwuxian.materialedittext.MaterialEditText
@@ -23,14 +23,14 @@
               android:hint="Address"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:textColorHint="@color/colorPrimary"
+              android:textColorHint="@color/white"
               android:text=""
-              android:textColor="@color/black"
+              android:textColor="@color/white"
               android:textSize="34sp"
               android:inputType="text"
-              app:met_baseColor="@color/colorPrimary"
+              app:met_baseColor="@color/white"
               app:met_floatingLabel="highlight"
-              app:met_primaryColor="@color/colorPrimary"
+              app:met_primaryColor="@color/white"
               app:met_singleLineEllipsis="true"/>
 
 
@@ -39,14 +39,14 @@
                 android:hint="Additional information"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColorHint="@color/colorPrimary"
+                android:textColorHint="@color/white"
                 android:text=""
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="24sp"
                 android:inputType="textMultiLine"
-                app:met_baseColor="@color/colorPrimary"
+                app:met_baseColor="@color/white"
                 app:met_floatingLabel="highlight"
-                app:met_primaryColor="@color/colorPrimary"
+                app:met_primaryColor="@color/white"
                 app:met_singleLineEllipsis="true"/>
 
         </LinearLayout>

@@ -228,7 +228,7 @@ public class Home extends AppCompatActivity
             Paper.book().destroy();
 
             //Logout
-            Intent signIn = new Intent(Home.this, SignIn.class);
+            Intent signIn = new Intent(Home.this, SignInActivity.class);
             signIn.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(signIn);
         }

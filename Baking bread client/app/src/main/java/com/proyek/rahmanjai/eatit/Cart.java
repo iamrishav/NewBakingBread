@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -123,8 +124,7 @@ public class Cart extends AppCompatActivity {
 
     private void showAlertDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Cart.this);
-        alertDialog.setTitle("One more step!");
-        alertDialog.setMessage("Enter your address:");
+        alertDialog.setMessage("Please Enter your address:");
 
 
         LayoutInflater inflater = this.getLayoutInflater();
@@ -161,14 +161,19 @@ public class Cart extends AppCompatActivity {
                 //Delete cart
                 new Database(getBaseContext()).cleanCart();
 
+                if(!TextUtils.isEmpty(edtAddress.getText().toString())){
                 sendNotififcationOrder(order_number);
-                Toast.makeText(Cart.this, "Thank you for ordering!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Cart.this, "Pay Your Bill", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Cart.this,Payment.class);
                 intent.putExtra("CartAmount",txtTotalPrice.getText().toString());
                 intent.putExtra("Address",edtAddress.getText().toString());
                 intent.putExtra("order_number",order_number);
                 startActivity(intent);
 //                finish();
+//
+                }else{
+                    edtAddress.setError("Please Enter address");
+                }
             }
         });
 

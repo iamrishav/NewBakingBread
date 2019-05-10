@@ -49,24 +49,23 @@ import com.wang.avi.AVLoadingIndicatorView;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import io.paperdb.Paper;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 
 public class Main2Activity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener{
+        implements NavigationView.OnNavigationItemSelectedListener {
 //        GoogleApiClient.OnConnectionFailedListener,
 //        GoogleApiClient.ConnectionCallbacks,
 //        ResultCallback<People.LoadPeopleResult>{
-
 
 
     private static ProgressDialog pDialog;
 
     GoogleApiClient mGoogleApiClient;
     boolean mSignInClicked;
-
 
 
     public static String City;
@@ -101,15 +100,15 @@ public class Main2Activity extends AppCompatActivity
 //    }
 
     // Haven'v finished function
-    private void setCity(){
-        if (City == null){
+    private void setCity() {
+        if (City == null) {
             City = "Indore";
         }
     }
 
     public static TextView cartNumber;
 
-    private void init(){
+    private void init() {
 
         pDialog = new ProgressDialog(this);
         pDialog.setMessage("Loading...");
@@ -125,7 +124,7 @@ public class Main2Activity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent cartIntent = new Intent(Main2Activity.this,Cart.class);
+                Intent cartIntent = new Intent(Main2Activity.this, Cart.class);
                 startActivity(cartIntent);
             }
         });
@@ -146,18 +145,13 @@ public class Main2Activity extends AppCompatActivity
         header_name.setText(Common.currentUser.getNama());
         header_mobile.setText(Common.currentUser.getPhone());
 
-        if(findViewById(R.id.main_fragment_container) != null) {
+        if (findViewById(R.id.main_fragment_container) != null) {
             Restaurants homeFragment = new Restaurants();
             getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment_container, homeFragment).commit();
         }
 
 
-
-
-
-
     }
-
 
 
     @Override
@@ -166,7 +160,7 @@ public class Main2Activity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+//            super.onBackPressed();
         }
     }
 
@@ -203,45 +197,25 @@ public class Main2Activity extends AppCompatActivity
                 Restaurants homeFragment = new Restaurants();
                 transaction.replace(R.id.main_fragment_container, homeFragment).commit();
                 break;
-            case R.id.nav_addr:
-                break;
-            case R.id.nav_profile:
-//                ProfileFragment profileFragment = new ProfileFragment();
-//                transaction.replace(R.id.main_fragment_container, profileFragment).commit();
-//                break;
+
             case R.id.nav_history:
-//                HistoryFragment historyFragment = new HistoryFragment();
-//                transaction.replace(R.id.main_fragment_container, historyFragment).commit();
-//                break;
-            case R.id.nav_track:
-//                TrackFragment trackFragment = new TrackFragment();
-//                transaction.replace(R.id.main_fragment_container, trackFragment).commit();
-//                break;
-            case R.id.nav_help:
-//                HelpFragment helpFragment = new HelpFragment();
-//                transaction.replace(R.id.main_fragment_container, helpFragment).commit();
-//                break;
-            case R.id.nav_rate:
+                Intent orderIntent = new Intent(Main2Activity.this, OrderStatus.class);
+                startActivity(orderIntent);
                 break;
+
+            case R.id.nav_help:
+                Intent helpFragment = new Intent(Main2Activity.this, HelpFragment.class);
+                startActivity(helpFragment);
+                break;
+
             case R.id.nav_logout:
-//                SPManipulation.getInstance(this).clearSharedPreference();
-//                LoginManager.getInstance().logOut();
-//                if (mGoogleApiClient.isConnected()) {
-////                    mGoogleApiClient.disconnect();
-////                    // updateUI(false);
-////                    System.err.println("LOG OUT ^^^^^^^^^^^^^^^^^^^^ SUCESS");
-//                    Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
-//                            new ResultCallback<Status>() {
-//                                @Override
-//                                public void onResult(Status status) {
-//                                    // ...
-//                                    Toast.makeText(getApplicationContext(),"Logged Out",Toast.LENGTH_SHORT).show();
-//                                }
-//                            });
-//                }
-//                Intent splash = new Intent(this, com.proyek.rahmanjai.eatit.SplashActivity.class);
-//                startActivity(splash);
-//                finish();
+                Paper.book().destroy();
+
+                //Logout
+                Intent signIn = new Intent(Main2Activity.this, SignInActivity.class);
+                signIn.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(signIn);
+                break;
             default:
                 break;
         }
@@ -252,19 +226,19 @@ public class Main2Activity extends AppCompatActivity
     }
 
 
-
-    public static void showPDialog(){
-        if (!pDialog.isShowing()){
+    public static void showPDialog() {
+        if (!pDialog.isShowing()) {
             pDialog.show();
         }
     }
-    public static void disPDialog(){
-        if (pDialog.isShowing()){
+
+    public static void disPDialog() {
+        if (pDialog.isShowing()) {
             pDialog.dismiss();
         }
     }
 
-//    @Override
+    //    @Override
 //    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 //        Log.d("LOGOUT", "onConnectionFailed:" + connectionResult);
 //    }
@@ -286,19 +260,19 @@ public class Main2Activity extends AppCompatActivity
 //    public void onResult(@NonNull People.LoadPeopleResult loadPeopleResult) {
 //
 //    }
-@Override
-public boolean onCreateOptionsMenu(Menu menu) {
-    MenuInflater inflater = getMenuInflater();
-    inflater.inflate(R.menu.options_menu, menu);
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
 
-    SearchManager searchManager =
-            (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-    SearchView searchView =
-            (SearchView) menu.findItem(R.id.search).getActionView();
-    searchView.setSearchableInfo(
-            searchManager.getSearchableInfo(getComponentName()));
+        SearchManager searchManager =
+                (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        SearchView searchView =
+                (SearchView) menu.findItem(R.id.search).getActionView();
+        searchView.setSearchableInfo(
+                searchManager.getSearchableInfo(getComponentName()));
 
-    return true;
-}
+        return true;
+    }
 
 }

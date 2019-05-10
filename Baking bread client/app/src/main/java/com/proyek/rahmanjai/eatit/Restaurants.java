@@ -46,7 +46,7 @@ public class Restaurants extends Fragment {
 
     private TextView locationView;
     private TextView changeLocView;
-    static LatLng defLocation = new LatLng(28.5, 77); //Delhi
+    static LatLng defLocation = new LatLng(28.5355, 77.3910); //Delhi
     static LatLng curLocation = defLocation;
 //    SwipeRefreshLayout mSwipeRefreshLayout ;
 
@@ -169,6 +169,10 @@ public class Restaurants extends Fragment {
                         }
                         else if (inputCity.getText().toString().equalsIgnoreCase("delhi")){
                             City = "delhi";
+                            getActivity().recreate();
+                        }
+                        else if (inputCity.getText().toString().equalsIgnoreCase("noida")){
+                            City = "Noida";
                             getActivity().recreate();
                         }
                         else {
