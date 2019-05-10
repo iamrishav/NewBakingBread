@@ -106,6 +106,41 @@ public class RestaurantList extends Fragment {
 //            Log.d(TAG, "onCreate: search started");
 
         setLoadingAnimation();
+
+        MyLocation mGPS = new MyLocation(getContext());
+
+        if(mGPS.canGetLocation ){
+            mGPS.getLocation();
+            curLocation = new LatLng(mGPS.getLatitude(),mGPS.getLongitude());
+            Log.d(TAG,"mylocation"+curLocation);
+
+        }
+//        else{
+//            AlertDialog.Builder dialog = new AlertDialog.Builder(view.getContext());
+//            dialog.setMessage(getResources().getString(R.string.gps_network_not_enabled));
+//
+//            dialog.setPositiveButton(getResources().getString(R.string.open_location_settings),
+//                    new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            Intent i = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+//                            startActivity(i);
+//                            Toast.makeText(view.getContext(), "Restart app after enabling GPS", Toast.LENGTH_SHORT).show();
+//
+//                        }
+//                    });
+//
+//            dialog.setNegativeButton(getResources().getString(R.string.cancel),
+//                    new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            //Nothing to do here
+//                            Toast.makeText(view.getContext(), "Enable GPS to allow app to function", Toast.LENGTH_SHORT).show();
+//                        }
+//                    });
+//
+//            dialog.show();
+//        }
         googlePlacesApi = new GooglePlacesApi(view.getContext());
         restaurantListClient = googlePlacesApi.getrestaurantlistclient();
 

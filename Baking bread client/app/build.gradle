@@ -26,7 +26,6 @@ dependencies {
 
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
     implementation 'com.github.mancj:MaterialSearchBar:0.7.1'
-    implementation 'com.github.bumptech.glide:glide:3.7.0'
 
 
     implementation 'com.yarolegovich:sliding-root-nav:1.1.0'

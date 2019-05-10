@@ -119,15 +119,6 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <!-- Autocomplete -->
-        <activity
-            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-            android:exported="false"
-            android:hardwareAccelerated="true"
-            android:label="@string/places_autocomplete_label"
-            android:theme="@style/PlacesAutocompleteThemeOverlay"
-            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-        </activity>
         <!--
              FirebaseMessagingService performs security checks at runtime,
              but set to not exported to explicitly avoid allowing another app to call it.
@@ -138,7 +129,15 @@
             <intent-filter android:priority="-500" >
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
-        </service>
+        </service> <!-- Autocomplete -->
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteThemeOverlay"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+        </activity>
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

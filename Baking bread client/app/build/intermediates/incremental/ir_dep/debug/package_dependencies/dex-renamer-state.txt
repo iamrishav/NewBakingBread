@@ -1,4 +1,4 @@
-#Fri May 10 05:38:12 IST 2019
+#Fri May 10 13:33:32 IST 2019
 base.0=/home/iamrishav/Baking bread client/app/build/intermediates/transforms/dexMerger/debug/10
 path.1=classes2.dex
 renamed.1=classes2.dex

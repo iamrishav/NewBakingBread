@@ -7,8 +7,6 @@ INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.x
 MERGED from [com.github.andremion:counterfab:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/counterfab-1.0.1.aar/e721b40f6f9630f81317d471cc50c29f/AndroidManifest.xml:2:1-14:12
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/bd2529e70ff3762e3c965ed7259ea6a6/AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:2:1-26:12
-MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:2:1-12:12
 MERGED from [com.yarolegovich:sliding-root-nav:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/sliding-root-nav-1.1.0.aar/f5dba1ec0ee22bd8e97a7af9c2378a66/AndroidManifest.xml:2:1-10:12
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/7567d1ea4520bdf759b02960aa3496f3/AndroidManifest.xml:2:1-14:12
 MERGED from [com.codemybrainsout.onboarding:onboarder:1.0.4] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/onboarder-1.0.4.aar/6aaef5881ea0af16fafd84f4aac949ee/AndroidManifest.xml:2:1-11:12
@@ -18,6 +16,7 @@ MERGED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gra
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/58701e01ff452117beeb032d47d912a2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.github.rey5137:material:1.2.4] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/material-1.2.4.aar/54604a00d5c262db20fbc1219792d666/AndroidManifest.xml:2:1-11:12
 MERGED from [com.stepstone.apprating:app-rating:2.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/app-rating-2.0.0.aar/b89fe2c9bece4721994441630d6f881c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5c7bd8fd02e297c0829a7e94e7c22e16/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/64f755f1f0daa55cbb3f40d9df3a6c94/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/ea343f4167a18720e6e5647f5831985b/AndroidManifest.xml:17:1-22:12
@@ -77,6 +76,7 @@ MERGED from [com.android.support:interpolator:28.0.0] /home/iamrishav/.gradle/ca
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/c34af63aecd4e4a3f75d989ce975d96c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/490b1b770d54e10794615e419e2c5ccf/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/826142e1345912f379bc498bf30d1a38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34aa58bb223a8b5b15d90067a88cb870/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4427250acf951b44d832372b4079f665/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dd9b78885b641648386240e99931a7fd/AndroidManifest.xml:17:1-22:12
@@ -155,10 +155,6 @@ MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/t
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/bd2529e70ff3762e3c965ed7259ea6a6/AndroidManifest.xml:11:5-20
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:13:5-24:19
-MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:13:5-24:19
-MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:10:5-20
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/7567d1ea4520bdf759b02960aa3496f3/AndroidManifest.xml:12:5-20
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/7567d1ea4520bdf759b02960aa3496f3/AndroidManifest.xml:12:5-20
 MERGED from [com.cepheuen.elegant-number-button:lib:1.0.2] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/lib-1.0.2.aar/1418fb76894ce67a9173428fff960bfc/AndroidManifest.xml:11:5-17:19
@@ -167,6 +163,8 @@ MERGED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gra
 MERGED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:22:5-35:19
 MERGED from [com.stepstone.apprating:app-rating:2.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/app-rating-2.0.0.aar/b89fe2c9bece4721994441630d6f881c/AndroidManifest.xml:12:5-20
 MERGED from [com.stepstone.apprating:app-rating:2.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/app-rating-2.0.0.aar/b89fe2c9bece4721994441630d6f881c/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:13:5-24:19
 MERGED from [com.android.support:design:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5c7bd8fd02e297c0829a7e94e7c22e16/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5c7bd8fd02e297c0829a7e94e7c22e16/AndroidManifest.xml:22:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/7acede458ac93c5688bd3b20bfa147a9/AndroidManifest.xml:7:5-12:19
@@ -229,6 +227,8 @@ MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/iamrish
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/583f8785fd2da4723039a734160f324b/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7583c35d13fea854b73d0a027ee5a6b5/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7583c35d13fea854b73d0a027ee5a6b5/AndroidManifest.xml:22:5-94
+MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:10:5-20
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34aa58bb223a8b5b15d90067a88cb870/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34aa58bb223a8b5b15d90067a88cb870/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.volley:volley:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d7c65a38473acb4d0fc21dea929f291e/AndroidManifest.xml:9:5-20
@@ -407,10 +407,6 @@ MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/t
 MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/calligraphy-2.3.0.aar/bd2529e70ff3762e3c965ed7259ea6a6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.mancj:MaterialSearchBar:0.7.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/MaterialSearchBar-0.7.1.aar/9e9e56183698a4c267594b387adbb979/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:7:5-44
-MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:7:5-44
-MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:6:5-8:41
 MERGED from [com.yarolegovich:sliding-root-nav:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/sliding-root-nav-1.1.0.aar/f5dba1ec0ee22bd8e97a7af9c2378a66/AndroidManifest.xml:6:5-8:41
 MERGED from [com.yarolegovich:sliding-root-nav:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/sliding-root-nav-1.1.0.aar/f5dba1ec0ee22bd8e97a7af9c2378a66/AndroidManifest.xml:6:5-8:41
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/com.amulyakhare.textdrawable-1.0.1.aar/7567d1ea4520bdf759b02960aa3496f3/AndroidManifest.xml:8:5-10:41
@@ -429,6 +425,8 @@ MERGED from [com.github.rey5137:material:1.2.4] /home/iamrishav/.gradle/caches/t
 MERGED from [com.github.rey5137:material:1.2.4] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/material-1.2.4.aar/54604a00d5c262db20fbc1219792d666/AndroidManifest.xml:7:5-9:41
 MERGED from [com.stepstone.apprating:app-rating:2.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/app-rating-2.0.0.aar/b89fe2c9bece4721994441630d6f881c/AndroidManifest.xml:8:5-10:41
 MERGED from [com.stepstone.apprating:app-rating:2.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/app-rating-2.0.0.aar/b89fe2c9bece4721994441630d6f881c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:7:5-44
 MERGED from [com.android.support:design:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5c7bd8fd02e297c0829a7e94e7c22e16/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5c7bd8fd02e297c0829a7e94e7c22e16/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/64f755f1f0daa55cbb3f40d9df3a6c94/AndroidManifest.xml:20:5-44
@@ -547,6 +545,8 @@ MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamrishav/.gradle/cache
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/490b1b770d54e10794615e419e2c5ccf/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/826142e1345912f379bc498bf30d1a38/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/826142e1345912f379bc498bf30d1a38/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.3.1] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/glide-4.3.1.aar/7389ad540fc0f94a80091907f8afe439/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34aa58bb223a8b5b15d90067a88cb870/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34aa58bb223a8b5b15d90067a88cb870/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4427250acf951b44d832372b4079f665/AndroidManifest.xml:20:5-44
@@ -575,6 +575,12 @@ INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.x
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 		ADDED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
 		INJECTED from /home/iamrishav/Baking bread client/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:29:13-82
 activity#com.google.android.libraries.places.widget.AutocompleteActivity
 ADDED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:16:9-23:20
 	android:label
@@ -589,12 +595,6 @@ ADDED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.g
 		ADDED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:21:13-66
 	android:name
 		ADDED from [com.google.android.libraries.places:places:1.1.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/places-1.1.0.aar/633b527e72b48bf02a7580ce85840b22/AndroidManifest.xml:17:13-91
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:28:9-34:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.6.0] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.6.0.aar/2ff2ff5c7007b2a2304ba0c6c1e5119f/AndroidManifest.xml:29:13-82
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] /home/iamrishav/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/7acede458ac93c5688bd3b20bfa147a9/AndroidManifest.xml:8:9-11:40
 	android:authorities
